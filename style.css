@@ -1,0 +1,138 @@
+.esas {
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    vertical-align: top;
+    width: 300px;
+    margin: 20px;
+    background-color: #fff;
+    line-height: 0;
+   
+
+
+}
+
+.esas .sekil {
+    position: relative;
+    z-index: 1;
+    display: block;
+    height: 200px;
+    width: 100%;
+    background-position: center center;
+    background-size: cover;
+    
+
+}
+
+
+.yazi {
+    padding: 15px 20px 25px;
+    overflow: hidden;
+    border: 1px solid #ddd;
+    border-width: 0 1px;
+    line-height: 1.5;
+}
+
+.stats {
+    border-top: 1px solid #aaa;
+    color: #aaa;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.esas .zaman {
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    max-width: 60px;
+
+}
+
+.esas .yazi {
+    margin-bottom: 5px;
+    color: #13317f;
+    line-height: 1.25;
+    font-family: pf_din_text_cond_promedium, Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.stats {
+    border-top: 1px solid #aaa;
+    color: #aaa;
+    font-weight: 700;
+    font-size: 16px;
+
+}
+
+.zaman-date {
+    padding: 6px 15px;
+    background-color: #1894a0;
+
+}
+
+.zaman-time {
+    padding: 5px 15px 3px;
+    background-color: #334564;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.zaman .date-day {
+    font-size: 15px;
+}
+
+.zaman-date {
+    color: #fff;
+    text-align: center;
+    font-family: pf_din_text_cond_promedium, Arial, sans-serif;
+
+}
+
+.zaman .date-month {
+    font-size: 15px;
+}
+
+.stats {
+    border-top: 1px solid #aaa;
+    color: #aaa;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.esas .like-border {
+    background-image: none;
+
+}
+
+.esas .dislike-border {
+    background-image: none;
+}
+
+.stats-i {
+    box-sizing: border-box;
+    float: left;
+    width: 33.3%;
+    line-height: 38px;
+    border: 0 solid #ddd;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-right-width: 1px;
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+.zaman-time {
+    color: white;
+    text-align: center;
+    font-family: pf_din_text_cond_promedium, Arial, sans-serif;
+}
+
+.like-border:hover {
+    color: green;
+}
+
+.dislike-border:hover {
+    color: red;
+}
